@@ -10,7 +10,7 @@ function ReusableForm(props) {
         <input
           type="number"
           name="quantity"
-          placeholder="1"
+          placeholder="0"
           min="1"
           max="400"
         />

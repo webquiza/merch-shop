@@ -12,7 +12,7 @@ function Merch(props){
           {props.quantity > 0 ? (
             <em>{props.quantity}</em>
           ) : (
-            <em>out of stock</em>
+            <em>Out of stock</em>
           )}
         </p>
         <hr/>
@@ -26,7 +26,7 @@ Merch.propTypes = {
   description: PropTypes.string,
   quantity: PropTypes.number,
   id: PropTypes.string, 
-  whenMerchClicked: PropTypes.func,
+  whenMerchClicked: PropTypes.func
 };
 
 export default Merch;

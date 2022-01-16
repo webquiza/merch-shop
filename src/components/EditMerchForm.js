@@ -9,7 +9,8 @@ function EditMerchForm(props){
     event.preventDefault();
     props.onEditMerch({
       name: event.target.name.value, 
-      description: event.target.description.value, quantity: event.target.quantity.value, 
+      description: event.target.description.value, 
+      quantity: event.target.quantity.value, 
       id: merch.id,
     });
   }
