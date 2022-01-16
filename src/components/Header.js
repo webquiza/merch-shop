@@ -1,5 +1,5 @@
 import React from "react";
-import ticketsImage from "./../img/reading_tickets.jpg";
+import merchImage from "./../img/merch.jpg";
 
 // CSS object with inline styles
 function Header(props){
@@ -10,8 +10,8 @@ function Header(props){
   return (
     <React.Fragment>
       <div style={Header}>
-      <h1>Help Queue</h1>
-      <img src={ticketsImage} alt="An image of tickets" />
+      <h1>Merch Shop</h1>
+      <img src={merchImage} alt="merch" />
       </div>
     </React.Fragment>
   );
